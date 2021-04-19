@@ -218,7 +218,6 @@
                                     <ul>
 									  <li><a href="#term-10" class="smooth"><span>机器人社区</span></a></li>
                                       <li><a href="#term-42" class="smooth"><span>社区资讯</span></a></li>
-                                      <li><a href="#term-45" class="smooth"><span>社区</span></a></li>
                                     </ul>
                                 </li>
                                                                 
@@ -272,61 +271,10 @@
                                             <i class="fa fa-home fa-lg mr-2"></i>
                                             <span>首页</span></a>
                                     </li>
-
+									
                                 </ul>
-                                <div class="rounded-circle weather">
-                                    <div id="he-plugin-simple" style="display: contents;"></div>
-                                    <script>WIDGET = {
-                                            CONFIG: {
-                                                "modules": "12034",
-                                                "background": 5,
-                                                "tmpColor": "E4C600",
-                                                "tmpSize": 14,
-                                                "cityColor": "E4C600",
-                                                "citySize": 14,
-                                                "aqiColor": "#E4C600",
-                                                "aqiSize": 14,
-                                                "weatherIconSize": 24,
-                                                "alertIconSize": 18,
-                                                "padding": "10px 10px 10px 10px",
-                                                "shadow": "1",
-                                                "language": "auto",
-                                                "borderRadius": 5,
-                                                "fixed": "false",
-                                                "vertical": "middle",
-                                                "horizontal": "left",
-                                                "key": "e05c4ce44b7e43c6a9303e68cc42a48c"
-                                            }
-                                        }
-                                    </script>
-                                    <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
-                                </div>
                             </div>
-
-                            <ul class="nav navbar-menu text-xs order-1 order-md-2">
-                                <!-- 一言 -->
-                                <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
-                                    <script>
-                                        fetch('https://v1.hitokoto.cn')
-                                          .then(response => response.json())
-                                          .then(data => {
-                                            const hitokoto = document.getElementById('hitokoto_text')
-                                            hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
-                                            hitokoto.innerText = data.hitokoto
-                                          })
-                                          .catch(console.error)
-                                    </script>                           
-                                </li>
-                                <!-- 一言 end -->
-                                <li class="nav-search ml-3 ml-md-4">
-                                    <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
-                                            class="iconfont icon-search icon-2x"></i></a>
-                                </li>
-                                <li class="nav-item d-md-none mobile-menu ml-3 ml-md-4">
-                                    <a href="javascript:" id="sidebar-switch" data-toggle="modal"
-                                        data-target="#sidebar"><i class="iconfont icon-classification icon-2x"></i></a>
-                                </li>
-                            </ul>
+							
                         </div>
                     </div>
                 </div>
@@ -559,7 +507,7 @@
                                     <div class="url-content d-flex align-items-center">
                                         <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
                                             <img class="lazy" src="ico/xiaoliz.ico" data-src="ico/xiaoliz.ico"
-                                                onerror="javascript:this.src='ico/xiaoliz.ico'" alt="知乎">
+                                                onerror="javascript:this.src='ico/xiaoliz.ico'" alt="小栗子">
                                         </div>
                                         <div class="url-info flex-fill">
                                             <div class="text-sm overflowClip_1">
@@ -584,7 +532,7 @@
                                     <div class="url-content d-flex align-items-center">
                                         <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
                                             <img class="lazy" src="ico/xianqu.png" data-src="ico/xianqu.png"
-                                                onerror="javascript:this.src='ico/xianqu.png'" alt="知乎">
+                                                onerror="javascript:this.src='ico/xianqu.png'" alt="先驱社区">
                                         </div>
                                         <div class="url-info flex-fill">
                                             <div class="text-sm overflowClip_1">
@@ -596,6 +544,231 @@
                                 </div>
                             </a>
                             <a href="https://discourse.xianqubot.com/"
+                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
+                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
+                        </div>
+                    </div>
+					
+					<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="http://www.keaimao.com.cn/forum.php" target="_blank" data-id="3300" data-url="http://www.keaimao.com.cn/forum.php"
+                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="可爱猫微信框架官方交流社区">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="ico/kaim.png" data-src="ico/kaim.png"
+                                                onerror="javascript:this.src='ico/kaim.png'" alt="可爱猫">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>可爱猫</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">可爱猫微信框架官方交流社区</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://www.keaimao.com.cn/forum.php"
+                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
+                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
+                        </div>
+                    </div>
+					
+					<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="http://www.vlwai.cn/" target="_blank" data-id="3300" data-url="http://www.vlwai.cn/"
+                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="VLW微信框架官方交流社区">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="ico/vlw.ico" data-src="ico/vlw.ico"
+                                                onerror="javascript:this.src='ico/vlw.ico'" alt="VLW">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>VLW</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">VLW微信框架官方交流社区</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://www.vlwai.cn/"
+                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
+                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
+                        </div>
+                    </div>
+					
+					<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="http://bbs.onoqq.com/" target="_blank" data-id="3300" data-url="http://bbs.onoqq.com/"
+                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="OnoQQ框架官方交流社区">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="ico/ono.ico" data-src="ico/ono.ico"
+                                                onerror="javascript:this.src='ico/ono.ico'" alt="OnoQQ">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>OnoQQ</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">OnoQQ框架官方交流社区</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://bbs.onoqq.com/"
+                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
+                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
+                        </div>
+                    </div>
+					
+					<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="https://www.spbot.cc/forum.php" target="_blank" data-id="3300" data-url="https://www.spbot.cc/forum.php"
+                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="精灵框架官方交流社区">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="ico/jl.ico" data-src="ico/jl.ico"
+                                                onerror="javascript:this.src='ico/jl.ico'" alt="精灵框架">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>精灵框架</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">精灵框架官方交流社区</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.spbot.cc/forum.php"
+                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
+                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
+                        </div>
+                    </div>
+					
+					<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="https://bbs.kumbot.cn/" target="_blank" data-id="3300" data-url="https://bbs.kumbot.cn/"
+                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="酷喵框架官方交流社区">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="ico/km.ico" data-src="ico/km.ico"
+                                                onerror="javascript:this.src='ico/km.ico'" alt="酷喵">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>酷喵</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">酷喵框架官方交流社区</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://bbs.kumbot.cn/"
+                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
+                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
+                        </div>
+                    </div>
+					
+					<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="https://bbs.nutqq.com/" target="_blank" data-id="3300" data-url="https://bbs.nutqq.com/"
+                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="NutQQ框架官方交流社区">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="ico/nut.ico" data-src="ico/nut.ico"
+                                                onerror="javascript:this.src='ico/nut.ico'" alt="NutQQ">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>NutQQ</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">NutQQ框架官方交流社区</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://bbs.nutqq.com/"
+                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
+                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
+                        </div>
+                    </div>
+					
+					<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="https://bbs.svipq8.cn/forum.php" target="_blank" data-id="3300" data-url="https://bbs.svipq8.cn/forum.php"
+                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="SVIPQQ框架官方交流社区">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="ico/svip.png" data-src="ico/svip.png"
+                                                onerror="javascript:this.src='ico/svip.png'" alt="SVIPQQ">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>SVIPQQ</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">SVIPQQ框架官方交流社区</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://bbs.svipq8.cn/forum.php"
+                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
+                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
+                        </div>
+                    </div>
+					
+					<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="https://d.nanbot.net/" target="_blank" data-id="3300" data-url="https://d.nanbot.net/"
+                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="NanBot框架官方交流社区">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="ico/nan.png" data-src="ico/nan.png"
+                                                onerror="javascript:this.src='ico/nan.png'" alt="NanBot">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>NanBot</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">NanBot框架官方交流社区</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://d.nanbot.net/"
+                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
+                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
+                        </div>
+                    </div>
+					
+					<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="https://www.qk911.com/" target="_blank" data-id="3300" data-url="https://www.qk911.com/"
+                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="乾坤框架官方交流社区">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="ico/qk.ico" data-src="ico/qk.ico"
+                                                onerror="javascript:this.src='ico/qk.ico'" alt="乾坤">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>乾坤</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">乾坤框架官方交流社区</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.qk911.com/"
                                 class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
                                 data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
                         </div>
@@ -689,111 +862,7 @@
                                     class="iconfont icon-goto"></i></a>
                         </div>
                     </div>
-                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a   ">
-                
-                        <div class="url-body default">
-                            <a href="https://www.mpyit.com/" target="_blank" data-id="684" data-url="https://www.mpyit.com/"
-                                class="card no-c  mb-4 site-684" data-toggle="tooltip" data-placement="bottom" title="分享优秀好用的软件">
-                                <div class="card-body">
-                                    <div class="url-content d-flex align-items-center">
-                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
-                                            <img class="lazy" src="ico/mpy.png" data-src="ico/mpy.png"
-                                                onerror="javascript:this.src='ico/mpy.png'" alt="殁漂遥">
-                                        </div>
-                                        <div class="url-info flex-fill">
-                                            <div class="text-sm overflowClip_1">
-                                                <strong>殁漂遥</strong>
-                                            </div>
-                                            <p class="overflowClip_1 m-0 text-muted text-xs">
-                                                分享优秀好用的软件</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://www.mpyit.com/" class="togo text-center text-muted is-views" data-id="684"
-                                data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow"><i
-                                    class="iconfont icon-goto"></i></a>
-                        </div>
-                    </div>
-                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a   ">
-                
-                        <div class="url-body default">
-                            <a href="https://ibaotu.com/" target="_blank" data-id="442" data-url="https://ibaotu.com/"
-                                class="card no-c  mb-4 site-442" data-toggle="tooltip" data-placement="bottom"
-                                title="汇集各种视觉冲击力强的原创广告图片设计">
-                                <div class="card-body">
-                                    <div class="url-content d-flex align-items-center">
-                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
-                                            <img class="lazy" src="ico/baotu.png" data-src="ico/baotu.png"
-                                                onerror="javascript:this.src='ico/baotu.png'" alt="包图网">
-                                        </div>
-                                        <div class="url-info flex-fill">
-                                            <div class="text-sm overflowClip_1">
-                                                <strong>包图网</strong>
-                                            </div>
-                                            <p class="overflowClip_1 m-0 text-muted text-xs">
-                                                汇集各种视觉冲击力强的原创广告图片设计</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://ibaotu.com/" class="togo text-center text-muted is-views" data-id="442"
-                                data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow"><i
-                                    class="iconfont icon-goto"></i></a>
-                        </div>
-                    </div>
-                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a   ">
-                
-                        <div class="url-body default">
-                            <a href="https://www.58pic.com/" target="_blank" data-id="424" data-url="https://www.58pic.com/"
-                                class="card no-c  mb-4 site-424" data-toggle="tooltip" data-placement="bottom"
-                                title="专注正版图片设计素材，拥有800多万张素材">
-                                <div class="card-body">
-                                    <div class="url-content d-flex align-items-center">
-                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
-                                            <img class="lazy" src="ico/qiantu.png" data-src="ico/qiantu.png"
-                                                onerror="javascript:this.src='ico/qiantu.png'" alt="千图网">
-                                        </div>
-                                        <div class="url-info flex-fill">
-                                            <div class="text-sm overflowClip_1">
-                                                <strong>千图网</strong>
-                                            </div>
-                                            <p class="overflowClip_1 m-0 text-muted text-xs">专注正版图片设计素材，拥有800多万张素材</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://www.58pic.com/" class="togo text-center text-muted is-views" data-id="424"
-                                data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow"><i
-                                    class="iconfont icon-goto"></i></a>
-                        </div>
-                    </div>
-                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a  ">
-                
-                        <div class="url-body default">
-                            <a href="http://music.zmki.cn/" target="_blank" data-id="294" data-url="http://music.zmki.cn/"
-                                class="card no-c  mb-4 site-294" data-toggle="tooltip" data-placement="bottom"
-                                title="支持各大音乐平台搜索、在线播放及下载">
-                                <div class="card-body">
-                                    <div class="url-content d-flex align-items-center">
-                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
-                                            <img class="lazy" src="ico/wangyiyun.png" data-src="ico/wangyiyun.png"
-                                                onerror="javascript:this.src='ico/wangyiyun.png'" alt="FreeMP3">
-                                        </div>
-                                        <div class="url-info flex-fill">
-                                            <div class="text-sm overflowClip_1">
-                                                <strong>FreeMP3</strong>
-                                            </div>
-                                            <p class="overflowClip_1 m-0 text-muted text-xs">支持各大音乐平台搜索、在线播放及下载</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="http://music.zmki.cn/" class="togo text-center text-muted is-views" data-id="424"
-                                data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow"><i
-                                    class="iconfont icon-goto"></i></a>
-                        </div>
-                    </div>
+
                     <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a  ">
                 
                         <div class="url-body default">
@@ -846,31 +915,7 @@
                                     class="iconfont icon-goto"></i></a>
                         </div>
                     </div>
-                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a   ">
-                
-                        <div class="url-body default">
-                            <a href="https://photo.zmki.cn/" target="_blank" data-id="14" data-url="https://photo.zmki.cn/"
-                                class="card no-c  mb-4 site-14" data-toggle="tooltip" data-placement="bottom" title="路途遥远，和你岁月相随">
-                                <div class="card-body">
-                                    <div class="url-content d-flex align-items-center">
-                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
-                                            <img class="lazy" src="ico/xiangce.png" data-src="ico/xiangce.png"
-                                                onerror="javascript:this.src='ico/xiangce.png'" alt="时光相册">
-                                        </div>
-                                        <div class="url-info flex-fill">
-                                            <div class="text-sm overflowClip_1">
-                                                <strong>时光相册</strong>
-                                            </div>
-                                            <p class="overflowClip_1 m-0 text-muted text-xs">路途遥远，和你岁月相随</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://photo.zmki.cn/" class="togo text-center text-muted is-views" data-id="14"
-                                data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow"><i
-                                    class="iconfont icon-goto"></i></a>
-                        </div>
-                    </div>
+
                     <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a   ">
                 
                         <div class="url-body default">
@@ -896,32 +941,7 @@
                                     class="iconfont icon-goto"></i></a>
                         </div>
                     </div>
-                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a   ">
-                
-                        <div class="url-body default">
-                            <a href="https://www.bilibili.com/" target="_blank" data-id="12" data-url="https://www.bilibili.com/"
-                                class="card no-c  mb-4 site-12" data-toggle="tooltip" data-placement="bottom"
-                                title="视频弹幕网站，及时的动漫新番，活跃的ACG氛围">
-                                <div class="card-body">
-                                    <div class="url-content d-flex align-items-center">
-                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
-                                            <img class="lazy" src="ico/bilibili.png" data-src="ico/bilibili.png"
-                                                onerror="javascript:this.src='ico/bilibili.png'" alt="哔哩哔哩">
-                                        </div>
-                                        <div class="url-info flex-fill">
-                                            <div class="text-sm overflowClip_1">
-                                                <strong>哔哩哔哩</strong>
-                                            </div>
-                                            <p class="overflowClip_1 m-0 text-muted text-xs">视频弹幕网站，及时的动漫新番，活跃的ACG氛围</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://www.bilibili.com/" class="togo text-center text-muted is-views" data-id="12"
-                                data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow"><i
-                                    class="iconfont icon-goto"></i></a>
-                        </div>
-                    </div>
+
                 </div>
                 
                 <div class="d-flex flex-fill ">
@@ -1267,7 +1287,7 @@
                 <div class="d-flex flex-fill ">
                     <h4 class="text-gray text-lg mb-4">
                         <i class="site-tag iconfont icon-tag icon-lg mr-1" id="term-42"></i>
-                        社区资讯<span style="color:#f1404b"> · </span>资讯
+                        社区资讯
                     </h4>
                     <div class="flex-fill"></div>
                 </div>
@@ -1536,73 +1556,9 @@
                                 data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
                         </div>
                     </div>
-
-                    
+					
                 </div>
-                <div class="d-flex flex-fill ">
-                    <h4 class="text-gray text-lg mb-4">
-                        <i class="site-tag iconfont icon-tag icon-lg mr-1" id="term-45"></i>
-                        社区资讯<span style="color:#f1404b"> · </span>社区
-                    </h4>
-                    <div class="flex-fill"></div>
-                </div>
-                <div class="row ">
                 
-                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a   ">
-                
-                        <div class="url-body default">
-                            <a href="http://tieba.baidu.com/" target="_blank" data-id="3322"
-                                data-url="http://tieba.baidu.com/" class="card no-c  mb-4 site-3322" data-toggle="tooltip"
-                                data-placement="bottom" title="以兴趣主题聚合志同道合者的互动平台">
-                                <div class="card-body">
-                                    <div class="url-content d-flex align-items-center">
-                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
-                                            <img class="lazy" src="ico/teiba.png" data-src="ico/teiba.png"
-                                                onerror="javascript:this.src='ico/teiba.png'" alt="百度贴吧">
-                                        </div>
-                                        <div class="url-info flex-fill">
-                                            <div class="text-sm overflowClip_1">
-                                                <strong>百度贴吧</strong>
-                                            </div>
-                                            <p class="overflowClip_1 m-0 text-muted text-xs">以兴趣主题聚合志同道合者的互动平台</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="http://tieba.baidu.com/"
-                                class="togo text-center text-muted is-views" data-id="3322" data-toggle="tooltip"
-                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
-                        </div>
-                    </div>
-                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a   ">
-                
-                        <div class="url-body default">
-                            <a href="https://www.zhihu.com/" target="_blank" data-id="3300" data-url="https://www.zhihu.com/"
-                                class="card no-c  mb-4 site-3300" data-toggle="tooltip" data-placement="bottom" title="有问题，就会有答案">
-                                <div class="card-body">
-                                    <div class="url-content d-flex align-items-center">
-                                        <div class="url-img rounded-circle mr-2 d-flex align-items-center justify-content-center">
-                                            <img class="lazy" src="ico/zhihu.png" data-src="ico/zhihu.png"
-                                                onerror="javascript:this.src='ico/zhihu.png'" alt="知乎">
-                                        </div>
-                                        <div class="url-info flex-fill">
-                                            <div class="text-sm overflowClip_1">
-                                                <strong>知乎</strong>
-                                            </div>
-                                            <p class="overflowClip_1 m-0 text-muted text-xs">有问题，就会有答案</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://www.zhihu.com/"
-                                class="togo text-center text-muted is-views" data-id="3300" data-toggle="tooltip"
-                                data-placement="right" title="直达" rel="nofollow"><i class="iconfont icon-goto"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-
-
                 <h4 class="text-gray text-lg mb-4">
                     <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
                 </h4>
